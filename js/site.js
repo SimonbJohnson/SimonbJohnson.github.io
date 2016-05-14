@@ -8,6 +8,7 @@ $.ajax({
     }
 });
 
+hover = false;
 
 function initGrid(data){
 
@@ -53,16 +54,20 @@ function generateGrid(data){
 		var color = Math.floor((Math.random() * (colors.length-1)));
 		$('#overlay'+i).css({'background-color':colors[color]});
 
-		/*$('#overlay'+i).on('click',function(){
-			window.open(d.url, '_blank');
-		});*/
+		$('#overlay'+i).on('click',function(){
+			if(hover){
+				window.open(d.url, '_blank');
+			}
+		});
 
 		$('#grid'+i).on("mouseenter", function(){						
         	$('#overlay'+i).fadeIn(400);
+        	hover = true;
     	});
 
     	$('#grid'+i).on("mouseleave", function(){	
         	$('#overlay'+i).stop().fadeOut(100);
+        	hover = false;
     	});
 	});
 }

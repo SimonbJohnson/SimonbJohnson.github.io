@@ -2,9 +2,30 @@
 	{
 		"title":"Zika Epi Curves",
 		"image":"images/zika_epi_curves.png",
-		"tags":["Health","Humanitarian"],
+		"tags":["Health","Humanitarian","HXL"],
 		"description":"Epi curves for zika outbreak dynamically visualised from a hxl source.  The user was presented with options on how to format the graphs.",
 		"url":"http://simonbjohnson.github.io/zika-epi-curves/"
+	},
+	{
+		"title":"Where the maps are missing",
+		"image":"images/whats_missing.png",
+		"tags":["Maps"],
+		"description":"An analysis of OpenStreetMap to identify what is still left to be mapped.",
+		"url":"https://medium.com/@Simon_B_Johnson/where-are-the-maps-missing-b22ceedb26f3#.l8rzisyu1"
+	},
+	{
+		"title":"Humanitarian Exchange Language (HXL)",
+		"image":"images/hxl_info.png",
+		"tags":["HXL","Humanitarian"],
+		"description":"A data standard that fits on a postcard.  Member of the HXL working group 2014 - current.",
+		"url":"http://hxlstandard.org/postcards/"
+	},
+	{
+		"title":"Nepal Survey of Surveys",
+		"image":"images/nepal_assessments.png",
+		"tags":["Humanitarian","HXL"],
+		"description":"A commissioned data portal to explore more than 200 assessments in the wake of the 2015 Nepal Earthquakes.",
+		"url":"http://nepalassessments.github.io/"
 	},
 	{
 		"title":"MPs Voting",
@@ -12,12 +33,5 @@
 		"tags":[],
 		"description":"A data visualisation to facilitate exploration of trends in how political parties voted on the controversial UK Data Retention Bill.",
 		"url":"http://simonbjohnson.github.io/MPs_vote_data_retention/"
-	},
-	{
-		"title":"Nepal Survey of Surveys",
-		"image":"images/nepal_assessments.png",
-		"tags":["Humanitarian"],
-		"description":"A commissioned data portal to explore more than 200 assessments in the wake of the 2015 Nepal Earthquakes.",
-		"url":"http://nepalassessments.github.io/"
 	}
 ]

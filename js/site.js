@@ -55,22 +55,17 @@ function generateGrid(data){
 		$('#overlay'+i).css({'background-color':colors[color]});
 
 		$('#overlay'+i).on('click',function(){
-			$('#console').html(hover);
-			if(hover){
+			if($('#overlay'+i).css('opacity')==0.9){
 				window.open(d.url, '_blank');
 			}
 		});
 
 		$('#grid'+i).on("mouseenter", function(){						
         	$('#overlay'+i).fadeIn(400);
-        	hover = true;
-        	$('#console').html(hover);
     	});
 
     	$('#grid'+i).on("mouseleave", function(){	
         	$('#overlay'+i).stop().fadeOut(100);
-        	hover = false;
-        	$('#console').html(hover);
     	});
 	});
 }

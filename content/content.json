@@ -2,7 +2,7 @@
 	{
 		"title":"Zika Epi Curves",
 		"image":"images/zika_epi_curves.png",
-		"tags":["Health"],
+		"tags":["Health","Humanitarian"],
 		"description":"Epi curves for zika outbreak dynamically visualised from a hxl source.  The user was presented with options on how to format the graphs.",
 		"url":"http://simonbjohnson.github.io/zika-epi-curves/"
 	},
@@ -12,5 +12,12 @@
 		"tags":[],
 		"description":"A data visualisation to facilitate exploration of trends in how political parties voted on the controversial UK Data Retention Bill.",
 		"url":"http://simonbjohnson.github.io/MPs_vote_data_retention/"
+	},
+	{
+		"title":"Nepal Survey of Surveys",
+		"image":"images/nepal_assessments.png",
+		"tags":["Humanitarian"],
+		"description":"A commissioned data portal to explore more than 200 assessments in the wake of the 2015 Nepal Earthquakes.",
+		"url":"http://nepalassessments.github.io/"
 	}
 ]

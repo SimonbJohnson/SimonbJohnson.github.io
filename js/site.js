@@ -13,12 +13,19 @@ function initGrid(data){
 
 	generateGrid(data);
 	generateButtons(data);
+	var $grid;
+	$('.container').imagesLoaded(function(){
 
-	var $grid =  $('#grid').isotope({
-	  // options
-	  itemSelector: '.grid-item',
-	  layoutMode: 'fitRows'
+		$grid =  $('#grid').isotope({
+		  // options
+		  itemSelector: '.grid-item',
+		  layoutMode: 'fitRows',
+		  masonry: {
+      		columnWidth: '.grid-item'
+    	  }
+		});		
 	});
+
 
 	$('.filter-button-group').on( 'click', 'button', function() {
 		$('.filterbutton').removeClass('highlight');
@@ -26,11 +33,12 @@ function initGrid(data){
 	    $grid.isotope({ filter: filterValue });
 	    $(this).addClass('highlight');
 	});
+
 }
 
 function generateGrid(data){
 	data.forEach(function(d,i){
-		var classes = 'col-md-4 grid-item';
+		var classes = 'col-md-4 col-sm-6 grid-item';
 		d.tags.forEach(function(tag){
 			classes += ' '+tag.replace(' ','_').toLowerCase();
 		});
@@ -43,15 +51,13 @@ function generateGrid(data){
 		$('#image'+i).css({"max-width": "100%", "max-height": "auto"});
 
 		var color = Math.floor((Math.random() * (colors.length-1)));
-		console.log(color);
 		$('#overlay'+i).css({'background-color':colors[color]});
 
 		$('#overlay'+i).on('click',function(){
 			window.open(d.url, '_blank');
 		});
 
-		$('#grid'+i).on("mouseenter", function(){
-			console.log('check');						
+		$('#grid'+i).on("mouseenter", function(){						
         	$('#overlay'+i).fadeIn(400);
     	});
 

@@ -53,9 +53,9 @@ function generateGrid(data){
 		var color = Math.floor((Math.random() * (colors.length-1)));
 		$('#overlay'+i).css({'background-color':colors[color]});
 
-		$('#overlay'+i).on('click',function(){
+		/*$('#overlay'+i).on('click',function(){
 			window.open(d.url, '_blank');
-		});
+		});*/
 
 		$('#grid'+i).on("mouseenter", function(){						
         	$('#overlay'+i).fadeIn(400);

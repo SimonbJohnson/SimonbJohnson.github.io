@@ -9,7 +9,7 @@
 	{
 		"title":"Where the maps are missing",
 		"image":"images/whats_missing.png",
-		"tags":["Maps"],
+		"tags":["Maps","Writing"],
 		"description":"An analysis of OpenStreetMap to identify what is still left to be mapped.",
 		"url":"https://medium.com/@Simon_B_Johnson/where-are-the-maps-missing-b22ceedb26f3#.l8rzisyu1"
 	},
@@ -28,10 +28,31 @@
 		"url":"http://nepalassessments.github.io/"
 	},
 	{
+		"title":"Missing Maps",
+		"image":"images/missing_maps.png",
+		"tags":["Humanitarian","Maps"],
+		"description":"A project to get the most vulnerable people on the map.",
+		"url":"http://www.missingmaps.org/"
+	},
+	{
+		"title":"50 IM Tips for Humanitarians",
+		"image":"images/im-tips.png",
+		"tags":["Humanitarian","Writing"],
+		"description":"An online book providing the basics of humanitarian information management.",
+		"url":"http://simonbjohnson.github.io/im-tips/"
+	},
+	{
 		"title":"MPs Voting",
 		"image":"images/mps_voting.png",
 		"tags":[],
 		"description":"A data visualisation to facilitate exploration of trends in how political parties voted on the controversial UK Data Retention Bill.",
 		"url":"http://simonbjohnson.github.io/MPs_vote_data_retention/"
+	},
+	{
+		"title":"Ebola Timeline Map",
+		"image":"images/ebola_timeline.png",
+		"tags":["Humanitarian","Maps","Health"],
+		"description":"An animated map showing the spread of the Ebola outbreak in West Africa",
+		"url":"http://simonbjohnson.github.io/Ebola-Timeline-Map/"
 	}
 ]

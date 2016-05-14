@@ -55,6 +55,7 @@ function generateGrid(data){
 		$('#overlay'+i).css({'background-color':colors[color]});
 
 		$('#overlay'+i).on('click',function(){
+			$('#console').html(hover);
 			if(hover){
 				window.open(d.url, '_blank');
 			}
@@ -63,11 +64,13 @@ function generateGrid(data){
 		$('#grid'+i).on("mouseenter", function(){						
         	$('#overlay'+i).fadeIn(400);
         	hover = true;
+        	$('#console').html(hover);
     	});
 
     	$('#grid'+i).on("mouseleave", function(){	
         	$('#overlay'+i).stop().fadeOut(100);
         	hover = false;
+        	$('#console').html(hover);
     	});
 	});
 }

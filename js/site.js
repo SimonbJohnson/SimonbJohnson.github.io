@@ -34,7 +34,7 @@ function initGrid(data){
 	    $grid.isotope({ filter: filterValue });
 	    $(this).addClass('highlight');
 	});
-	$('#console').html('new version');
+
 }
 
 function generateGrid(data){

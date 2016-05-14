@@ -42,6 +42,13 @@
 		"url":"http://simonbjohnson.github.io/im-tips/"
 	},
 	{
+		"title":"Who is doing what and where (3w)",
+		"image":"images/3w.png",
+		"tags":["Humanitarian","Writing","Maps"],
+		"description":"A write up of the evolution of the 3w visualisation which has now been used in over 50 humanitarian responses.",
+		"url":"https://medium.com/@Simon_B_Johnson/who-is-doing-what-where-visualisation-from-concept-to-use-6aa0ae1c3cd5"
+	},
+	{
 		"title":"MPs Voting",
 		"image":"images/mps_voting.png",
 		"tags":[],

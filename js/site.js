@@ -54,7 +54,7 @@ function generateGrid(data){
 		var color = Math.floor((Math.random() * (colors.length-1)));
 		$('#overlay'+i).css({'background-color':colors[color]});
 
-		$('#overlay'+i).on('click touchstart',function(){
+		$('#overlay'+i).on('click',function(){
 			if($('#overlay'+i).css('opacity')>0.5){
 				window.open(d.url, '_blank');
 			}

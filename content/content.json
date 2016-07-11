@@ -1,5 +1,19 @@
 [
 	{
+		"title":"Balance",
+		"image":"images/balance.jpg",
+		"tags":["Writing", "Data Analysis"],
+		"description":"A User Centred Approach To Developing An Actionable Visualisation For ‘Balance Health’ ",
+		"url":"https://drs2016.squarespace.com/330"
+	},
+	{
+		"title":"Migrant Population Movement Forecasting",
+		"image":"images/migrants.png",
+		"tags":["Writing","Humanitarian","HXL", "Data Analysis"],
+		"description":"Predicting migrants flows through the Balkan corridor using machine learning in an attempt to help operations better plan activities.",
+		"url":"https://medium.com/@Simon_B_Johnson/predicting-migration-flow-through-europe-3b93b0482fcd#.jqlcixo6f"
+	},
+	{
 		"title":"Zika Epi Curves",
 		"image":"images/zika_epi_curves.png",
 		"tags":["Health","Humanitarian","HXL"],
@@ -9,7 +23,7 @@
 	{
 		"title":"Where the maps are missing",
 		"image":"images/whats_missing.png",
-		"tags":["Maps","Writing"],
+		"tags":["Data Analysis","Maps","Writing"],
 		"description":"An analysis of OpenStreetMap to identify what is still left to be mapped.",
 		"url":"https://medium.com/@Simon_B_Johnson/where-are-the-maps-missing-b22ceedb26f3#.l8rzisyu1"
 	},
